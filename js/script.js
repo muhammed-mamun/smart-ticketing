@@ -10,10 +10,16 @@ const couple20 = 'Couple 20'
 const apply = document.getElementById("apply")
 const grandTotal = document.getElementById('grandPrice')
 const totalPrice = document.getElementById("totalPrice")
-
+const nextBtn = document.getElementById('nextBtn')
+const numberInput  = document.querySelectorAll('input')
+console.log(numberInput);
 if(count !==4){
     apply.setAttribute("disabled", '')
 } 
+
+if(count<1 && numberInput[2]===''){
+    nextBtn.setAttribute('disabled', '')
+}
 
 for(const btn of allBtn){
     btn.addEventListener("click", function(e){
@@ -21,9 +27,10 @@ for(const btn of allBtn){
         
         if(count==4 ){
             apply.removeAttribute("disabled", '');
+            nextBtn.removeAttribute('disabled', '')
             for(const b of allBtn){  
                     b.setAttribute('disabled', '')
-               
+
             }
         }
         btn.classList.add("selected")
@@ -55,7 +62,6 @@ for(const btn of allBtn){
         totalPrice.innerText = count * seatPrice;
         grandTotal.innerText = count * seatPrice
 
-        
     })
 }
 
