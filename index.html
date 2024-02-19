@@ -56,9 +56,9 @@
           <img src="./images/cupon-devider.png" alt="">
           <div>
             <div class="pt-10 pl-10">
-              <h2 class="text-3xl font-black">NEW15</h2>
+              <h2 class="text-3xl font-black">15% OFF</h2>
 
-              <p class="text-base">Coupon Code</p>
+              <p class="text-base">NEW15</p>
             </div>
           </div>
         </div>
@@ -71,9 +71,9 @@
           <img src="./images/cupon-devider.png" alt="">
           <div>
             <div class="pt-10 pl-10">
-              <h2 class="text-3xl font-black">NEW15</h2>
+              <h2 class="text-3xl font-black">20% OFF </h2>
 
-              <p class="text-base">Coupon Code</p>
+              <p class="text-base">Couple 20</p>
             </div>
           </div>
         </div>
@@ -104,7 +104,7 @@
             </div>
             <div class="flex">
               <p><img src="./images/seat-green-filled.png" alt=""></p>
-              <p class="text-base text-[#1DD100]"> <span>40 </span>Seats left</p>
+              <p class="text-base text-[#1DD100]"> <span id="seatLeft">40 </span>Seats left</p>
             </div>
           </div>
           <div class="p-8">
@@ -156,85 +156,65 @@
         </div>
         <!-- seat number -->
         <!-- A -->
-        <div class="flex pb-6 justify-between">
-          <p class="mr-5 pt-5 text-center">A</p>
-          <button class="btn seatBtn w-[110px] h-[56px]">A1</button>
-          <button class="btn seatBtn  w-[110px] h-[56px]">A2</button>
-          <button class="btn seatBtn  w-[110px] h-[56px]">A3</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">A4</button>
+        <div class="flex">
+          <div class="grid-cols-1">
+            <p class="text-base py-4 pr-3">A</p>
+            <p class="text-base py-4 pr-3">B</p>
+            <p class="text-base py-4 pr-3">C</p>
+            <p class="text-base py-4 pr-3">D</p>
+            <p class="text-base py-4 pr-3">E</p>
+            <p class="text-base py-4 pr-3">F</p>
+            <p class="text-base py-4 pr-3">G</p>
+            <p class="text-base py-4 pr-3">H</p>
+            <p class="text-base py-4 pr-3">I</p>
+            <p class="text-base py-4 pr-3">J</p>
+          </div>
+          <div class="grid-cols-4 gap-x-2 justify-between">
+            <button class="btn seatBtn w-[110px] h-[56px]">A1</button>
+            <button class="btn seatBtn  w-[110px] h-[56px]">A2</button>
+            <button class="btn seatBtn  w-[110px] h-[56px]">A3</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">A4</button>
+            <button class="btn seatBtn  w-[110px] h-[56px]">B1</button>
+            <button class="btn seatBtn  w-[110px] h-[56px]">B2</button>
+            <button class="btn seatBtn  w-[110px] h-[56px]">B3</button>
+            <button class="btn  seatBtn w-[110px] h-[56px]">B4</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">C1</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">C2</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">C3</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">C4</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">D1</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">D2</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">D3</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">D4</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">E1</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">E2</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">E3</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">E4</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">F1</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">F2</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">F3</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">F4</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">G1</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">G2</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">G3</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">G4</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">H1</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">H2</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">H3</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">H4</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">I1</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">I2</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">I3</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">I4</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">J1</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">J2</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">J3</button>
+            <button class="btn seatBtn w-[110px] h-[56px]">J4</button>
+          </div>
         </div>
-        <!-- B -->
-        <div class="flex pb-6 justify-between">
-          <p class="mr-5 pt-5 text-center">B</p>
-          <button class="btn seatBtn  w-[110px] h-[56px]">B1</button>
-          <button class="btn seatBtn  w-[110px] h-[56px]">B2</button>
-          <button class="btn seatBtn  w-[110px] h-[56px]">B3</button>
-          <button class="btn  seatBtn w-[110px] h-[56px]">B4</button>
-        </div>
-        <!-- C -->
-        <div class="flex pb-6 justify-between">
-          <p class="mr-5 pt-5 text-center">C</p>
-          <button class="btn seatBtn w-[110px] h-[56px]">C1</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">C2</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">C3</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">C4</button>
-        </div>
-        <!-- D -->
-        <div class="flex pb-6 justify-between">
-          <p class="mr-5 pt-5 text-center">D</p>
-          <button class="btn seatBtn w-[110px] h-[56px]">D1</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">D2</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">D3</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">D4</button>
-        </div>
-        <!-- E -->
-        <div class="flex pb-6 justify-between">
-          <p class="mr-5 pt-5 text-center">E</p>
-          <button class="btn seatBtn w-[110px] h-[56px]">E1</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">E2</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">E3</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">E4</button>
-        </div>
-        <!-- F -->
-        <div class="flex pb-6 justify-between">
-          <p class="mr-5 pt-5 text-center">F</p>
-          <button class="btn seatBtn w-[110px] h-[56px]">F1</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">F2</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">F3</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">F4</button>
-        </div>
-        <!-- G -->
-        <div class="flex pb-6 justify-between">
-          <p class="mr-5 pt-5 text-center">G</p>
-          <button class="btn seatBtn w-[110px] h-[56px]">G1</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">G2</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">G3</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">G4</button>
-        </div>
-        <!-- H -->
-        <div class="flex pb-6 justify-between">
-          <p class="mr-5 pt-5 text-center">H</p>
-          <button class="btn seatBtn w-[110px] h-[56px]">H1</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">H2</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">H3</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">H4</button>
-        </div>
-        <!-- I -->
-        <div class="flex pb-6 justify-between">
-          <p class="mr-5 pt-5 text-center">I</p>
-          <button class="btn seatBtn w-[110px] h-[56px]">I1</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">I2</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">I3</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">I4</button>
-        </div>
-        <!-- J -->
-        <div class="flex justify-between">
-          <p class="mr-5 pt-5 text-center">J</p>
-          <button class="btn seatBtn w-[110px] h-[56px]">J1</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">J2</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">J3</button>
-          <button class="btn seatBtn w-[110px] h-[56px]">J4</button>
-        </div>
+       
+        
+        
       </div>
 
       <img src="./images/ticket-devider.png" alt="" class="pr-8">
@@ -242,9 +222,9 @@
       <div>
         <h3 class="text-2xl font-medium pb-2">Select Your Seat</h3>
         <div class="card h-[350px] w-[450px] p-8">
-        <div class="ticket-container">
+        <div id="ticket-container">
           <div class="flex justify-between">
-            <p class="text-base font-bold">Seat <span class="bg-[#1DD111] rounded p-1 seatCount">0</span></p>
+            <p class="text-base font-bold">Seat <span id="seatCount" class="bg-[#1DD111] rounded p-1 ">0</span></p>
             <p class="text-base font-bold">Class</p>
             <p class="text-base font-bold">Price</p>
           </div>
@@ -253,17 +233,17 @@
         
         <div class="flex justify-between">
           <p class="text-base font-bold">Total Price</p>
-          <p class="text-base font-bold">BDT <span class="totalPrice">1100</span></p>
+          <p class="text-base font-bold">BDT <span id="totalPrice">0</span></p>
         </div>
 
-        <div class="flex justify-between pt-6 rounded">
-          <input type="text" placeholder="Have any copupon?" class=" border-0 max-w-max pl-5"/>
-          <button class="btn bg-[#1DD111] h-10 w-[80px]">Apply</button>
+        <div id="applyCoupon" class="flex justify-between pt-6 rounded">
+          <input  type="text" placeholder="Have any copupon?" class=" border-0 max-w-max pl-5"/>
+          <button id="apply" class="btn bg-[#1DD111] h-10 w-[80px]">Apply</button>
         </div>
 
-        <div class="flex justify-between pt-8">
-          <p class="text-base font-bold ">Grand Total</p>
-          <p class="text-base font-bold">BDT <span class="grandPrice">1100</span></p>
+        <div id="grandDiv"  class="pt-8">
+          <div class="flex justify-between"><p class="text-base font-bold ">Grand Total</p>
+            <p class="text-base font-bold">BDT <span id="grandPrice">0</span></p></div>
         </div>
 
         
@@ -271,7 +251,7 @@
       <h3 class="font-bold text-xl pt-10 pb-5">Passenger Name*</h3>
       <input type="text" placeholder="Enter your name" class="border-0 pl-10 "/>
       <h3 class="font-bold text-xl pt-10 pb-5">Phone Number*</h3>
-      <input type="number" required placeholder="Enter your name" class="border-0 pl-10 "/>
+      <input id="number-input" type="number" required placeholder="Enter your number" class="border-0 pl-10 "/>
       <h3 class="font-bold text-xl pt-10 pb-5">Passenger Name*</h3>
       <input type="email" placeholder="Enter your name" class="border-0 pl-10 "/>
       <button id="nextBtn" class=" bg-[#1DD111] w-[430px] px-5 py-6 mt-20 rounded-lg">Next</button>  

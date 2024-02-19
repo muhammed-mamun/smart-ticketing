@@ -16,3 +16,7 @@ body{
 .wheel {
     margin-left: auto;
 }
+
+.selected{
+    background-color: #1DD100;
+}
