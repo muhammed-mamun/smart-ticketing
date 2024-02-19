@@ -1,3 +1,18 @@
 body{
     font-family: "Raleway", sans-serif;
 }
+
+.hero {
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.offer-btn{
+    border-radius: 8px;
+    border: 1px solid #1DD100;
+    padding: 8px;
+}
+.wheel {
+    margin-left: auto;
+}
